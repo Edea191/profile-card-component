@@ -1,0 +1,107 @@
+:root{
+    --bodyColor:azure;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+
+}
+
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-bottom.svg);
+    min-height: 100px;
+    margin-top: 10%; 
+}
+
+main
+{   
+    background-color: var(--bodyColor);
+    border: var(--bodyColor);
+    border-radius: 10px;
+    margin: auto;  
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+img{
+    align-self: center;
+    margin-top:-100px;
+    height: 100px;
+    width: 100px;
+    border: white solid 5px;
+    border-radius: 100%;
+}
+
+
+.toReplaceIMG{
+    height: 140px;
+    width: 100%;
+    background-image: url(./images/bg-pattern-card.svg);
+    border: transparent solid 1px;
+    border-radius: 10px 10px 0 0;
+}
+
+.name{
+    height: 200px;
+    display: flex;
+    flex-flow: column wrap-reverse;
+    background-color: var(--bodyColor);       
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.name span{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    gap: 10px;
+
+}
+
+
+.desc{
+    height: 100px;
+    width: auto;
+    background-color: var(--bodyColor);
+    border: var(--bodyColor) solid 10px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.style{
+    border: 0.5px hsl(0, 2%, 75%) solid;
+    margin: 0px 5px 0px 5px;
+    
+}
+ .color{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+h2{
+    font-size: 13px;
+}
+.distance{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
